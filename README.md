@@ -12,12 +12,12 @@ Your Pololu robot comes with two micro motors. These can be made to turn clockwi
 
 Here are some of the commands you may frequently use:
 ```
-void calibrate()  //calibrated the bump sensors
+void calibrate()  //Calibrate the bump sensors
 uint8_t read()  //Reads both sensors
 void leftChanged()  //Indicates a state change of left bump sensor since last read
 void rightChanged()  //Indicates a state change of right bump sensor since last read
-void leftisPressed() //Indacates left bump sensor is pressed
-void rightisPressed() //Indacates right bump sensor is pressed
+void leftisPressed() //Indicates left bump sensor is pressed
+void rightisPressed() //Indicates right bump sensor is pressed
 ```
 
 ## Working with the IMU (Inertial Measurement Unit)
