@@ -32,7 +32,7 @@ Here are some of the command you may frequently use:
 ```
 void turnSensorSetup()  //This should be called in setup() to calibrate your robot. 
 void turnSensorReset() //This resets the starting point for measuring a turn.
-void turn SensorUpdate()  //This reads the gyro and updates the heading.
+void turnSensorUpdate()  //This reads the gyro and updates the heading.
 ```
 
 ## Putting it all together
